@@ -1,3 +1,4 @@
+stage3/01-install-jade/files/*.deb
 deploy/*
 work/*
 postrun.sh

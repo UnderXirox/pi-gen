@@ -16,7 +16,7 @@ bootstrap(){
 	fi
 
 	capsh --drop=cap_setfcap -- -c "${BOOTSTRAP_CMD} --components=main,contrib,non-free \
-		--arch armhf\
+		--arch armhf \
 		--no-check-gpg \
 		$1 $2 $3"
 }

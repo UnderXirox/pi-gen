@@ -11,3 +11,10 @@ Basic images
   * camera driver
   * camera streaming
   * opencv lib
+
+Core images
+===========
+
+- get last jade-core release from ftp
+- install when the image is created and not at first boot
+- make sure git and svn users are not in sudoers

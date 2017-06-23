@@ -1,0 +1,4 @@
+IMG_SUFFIX="-jade"
+if ${USE_QEMU} = "true"; then
+  IMG_SUFFIX="${IMG_SUFFIX}-qemu"
+fi

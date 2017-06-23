@@ -143,6 +143,8 @@ maintenance and allows for more easy customization.
    creates necessary groups and gives the pi user access to sudo and the
    standard console hardware permission groups.
 
-
-### Stage specification
-You can add other stages, I recommand you to see the original project for more informations.
+ - **Stage 3** - jade-core system.  This stage prepare the jade-core image.  It
+   installs all dependencies.  
+   It also creates a jade user instead of pi user and group and copy the
+   jade-core latest package into jade home directory.  This package can not be
+   installed automaticaly because qemu is not able to do so.

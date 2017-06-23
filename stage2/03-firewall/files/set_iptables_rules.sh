@@ -44,3 +44,7 @@ iptables -t filter -A OUTPUT -p tcp --dport 80 -j ACCEPT
 # Allow rpi-update OUTPUT (use https)
 iptables -t filter -A OUTPUT -p tcp --dport 443 -j ACCEPT
 # ---------------------------------------------------------------
+# Allow jade-core In connection
+iptables -t filter -A INPUT -p tcp --dport 4000 -j ACCEPT
+
+# ---------------------------------------------------------------
